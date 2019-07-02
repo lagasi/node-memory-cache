@@ -1,0 +1,23 @@
+{
+  "name": "memory-cache",
+  "version": "1.0.0",
+  "description": "In-memory cache for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "keywords": [
+    "memory",
+    "cache"
+  ],
+  "author": "lagasi",
+  "license": "ISC",
+  "dependencies": {
+    "rfdc": "^1.1.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "sinon": "^7.3.2"
+  }
+}
