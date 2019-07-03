@@ -2,6 +2,8 @@
 
 Simple memory cache for Node.js with only one dependency, (rfdc)[] for creating deep copies.
 
+[![Build Status](https://travis-ci.org/lagasi/node-memory-cache.svg?branch=master)](https://travis-ci.org/lagasi/node-memory-cache)
+
 ## Installation
 
 ```npm install node-memory-cache```
@@ -60,7 +62,7 @@ Checks if `key` exists
 
 ` get(key) `
 
-Gets copy of value associated with `key` or undefined if there is none.
+Gets copy of value associated with `key` or `undefined` if there is none.
 
 ` set(key, value[, ttl[, callback]]) `
 
