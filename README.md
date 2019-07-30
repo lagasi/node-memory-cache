@@ -1,6 +1,6 @@
 # Memory Cache
 
-Simple memory cache for Node.js with only one dependency, (rfdc)[] for creating deep copies.
+Simple memory cache for Node.js with only one dependency, [rfdc](https://github.com/davidmarkclements/rfdc) for creating deep copies.
 
 [![Build Status](https://travis-ci.org/lagasi/node-memory-cache.svg?branch=master)](https://travis-ci.org/lagasi/node-memory-cache)
 
@@ -31,10 +31,10 @@ setTimeout(() => console.log(cache.get("foo")), 2000) // undefined
 
 ### Options
 
-| name         | default | description |
-| ----         | ------- | ------------|
-| ttl          | 100     | Number of milliseconds before cached element expires. `0` = element doesn't expire |
-| checkPeriod  | 600     | How often to check cache for expired elements and delete them from memory in milliseconds. `0` = don't check |
+| name        | default | description |
+| ----------- | ------- | ------------|
+| ttl         | 100     | Number of milliseconds before cached element expires. `0` = element doesn't expire |
+| checkPeriod | 600     | How often to check cache for expired elements and delete them from memory in milliseconds. `0` = don't check |
 
 
 ### Properties
@@ -78,4 +78,4 @@ Deletes expired elements from cache.
 
 ` clear() `
 
-Clears cached and stats
+Clears cache and stats
