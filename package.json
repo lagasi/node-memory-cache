@@ -1,5 +1,5 @@
 {
-  "name": "memory-cache",
+  "name": "node-memory-cache",
   "version": "1.0.0",
   "description": "In-memory cache for Node.js",
   "main": "index.js",
